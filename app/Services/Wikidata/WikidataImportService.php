@@ -24,6 +24,7 @@ class WikidataImportService
         'Q953806', // Bushaltestelle
         'Q2175765', // Straßenbahnhaltestelle
         'Q44782', // Hafen
+        'Q15310171', // Seehafen
     ];
 
     public static function importStation(string $qId): Station {
